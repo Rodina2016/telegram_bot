@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_mk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.0",
+    "@types/node-telegram-bot-api": "^0.50.4",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.6",
+    "qrcode": "^1.4.4"
+  }
+}
