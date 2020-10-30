@@ -1,9 +1,9 @@
 const TelegramBot = require('node-telegram-bot-api');
 const QRCode = require('qrcode')
-require('dotenv').config()
+const TOKEN = require('dotenv').config()
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = '1251029071:AAHwAeGlurbISibFw8VxmXxJk00aDCjTGMM';
+const token = TOKEN;
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
